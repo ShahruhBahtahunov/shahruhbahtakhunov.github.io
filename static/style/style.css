@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Satisfy&display=swap);
+
+body {
+    font-family: Comfortaa, Satisfy;
+    background: #ffffff url(https://img.elo7.com.br/product/original/151F21A/painel-fundo-do-mar-g-frete-gratis-tema-de-festa-infantil.jpg) center center/cover no-repeat fixed;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    font-size: 15px;
+}
+
+.navbar-nav .nav-link.active {
+    color: aqua;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(19, 90, 90);
+}
+.d-flex {
+    margin: auto auto;
+}
+
+h1 {
+    font-family: Satisfy, Comfortaa;
+    font-size: 60px;
+}
+
+.btn-outline-success {
+    background-color: rgb(35, 122, 79);
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(2, 43, 53);
+    text-align: center;
+}
+
+h2:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: rgb(2, 43, 53);
+    width: 300px;
+    margin: 10px auto 0;
+    transition: 1s;
+}
+
+h2:hover:after {
+    width: 600px;
+    transition: ease-out 0.5s;
+}
+
+.border {
+    margin-left: 2em;
+    background-color: rgb(2, 32, 39);
+    color: aqua;
+}
+
+.slide-text {
+    color: rgb(1, 18, 22);
+    margin: auto auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card{
+    background: linear-gradient(270deg, #072c35 33%, #000000 102%);
+    color:aqua;
+}
+.bord{
+margin-top: 10em;
+}
+.room{
+margin-top: 6em;
+}
+footer {
+    background-color: rgb(2, 32, 39);
+}
+.card{
+    margin-bottom: 1.5em;
+}
+
+.phone {
+    color: rgb(2, 32, 39);
+    margin-top: 6em;
+    font-size: 20px;
+}
+
+.call-animation {
+    animation: myAnim 2s ease-out 0s infinite normal forwards;
+
+}
+
+.footer-text {
+    color: aqua;
+    margin: auto auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@media(max-width:755px) {
+    .carousel-indicators {
+        display: none;
+    }
+
+}
+img{
+    width: 100%;
+}
